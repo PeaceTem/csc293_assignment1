@@ -1,0 +1,58 @@
+/* Apply basic styles to the form */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-size: 16px;
+  }
+
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Style the form group elements */
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  /* Style the error messages */
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+
+  input {
+    cursor: pointer;
+  }
+
+  input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    border-color: transparent;
+  }
+
+  input[type="submit"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 3px 0 var(--secondary-color);
+    width: 200px;
+  }
+  
+  input[type="submit"]:hover {
+    box-shadow: 0 0 3px 0 var(--primary-color);
+
+  }
+
+
+  #output{
+    color: #e61367;
+    font-size: 30px;
+    margin: 6px 3px 3px 4px;
+
+}

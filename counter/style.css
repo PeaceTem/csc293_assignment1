@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#count{
+    font-size: 60px;
+    color: #e61367;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div#count > span{
+    margin: 2px 4px 2px 4px;
+}
